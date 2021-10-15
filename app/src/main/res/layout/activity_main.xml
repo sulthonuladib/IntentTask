@@ -32,7 +32,7 @@
             android:inputType="textPersonName"
             android:minWidth="300dp"
             android:minHeight="48dp"
-            android:text="https://github.com/sulthonualdib"
+            android:text="https://github.com/sulthonuladib"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="100dp" />
