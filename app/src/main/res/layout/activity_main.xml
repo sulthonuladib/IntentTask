@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/implicitIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvImplicit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Implicit Intent"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"></TextView>
+
+        <EditText
+            android:id="@+id/etWebUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvImplicit"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minWidth="300dp"
+            android:minHeight="48dp"
+            android:text="https://github.com/sulthonualdib"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <Button
+            android:id="@+id/btImplicit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etWebUrl"
+            android:layout_centerHorizontal="true"
+            android:text="Go To The Url"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="217dp"
+        android:layout_height="116dp"
+        android:layout_below="@+id/implicitIntent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="294dp">
+
+        <TextView
+            android:id="@+id/tvExplicit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Explicit Intent"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"></TextView>
+
+        <Button
+            android:id="@+id/btExplicit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvExplicit"
+            android:layout_centerHorizontal="true"
+            android:text="Go To Other Activity"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

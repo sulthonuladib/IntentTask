@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DestinationActivity">
+
+    <RelativeLayout
+        android:layout_width="217dp"
+        android:layout_height="116dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="294dp">
+
+        <TextView
+            android:id="@+id/tvDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Destination Activity"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"></TextView>
+
+        <Button
+            android:id="@+id/btDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDestination"
+            android:layout_centerHorizontal="true"
+            android:text="Back to Main Activity"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+    </RelativeLayout>
+</RelativeLayout>
